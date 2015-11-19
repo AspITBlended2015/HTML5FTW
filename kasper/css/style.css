@@ -2,6 +2,7 @@ body {
 	background: rgba(250,100,200,0.7);
 }
 #container {
+    padding: 15px;
 	border: 1px solid black;
 	margin: 0 auto;
 	width: 1000px;
@@ -16,6 +17,8 @@ body {
     height: 0;
 }
 aside {
+    padding: 5px;
+    border: 1px solid black;
     display: inline;
     float: right;
 }
@@ -32,13 +35,14 @@ article {
 meter {
     display: block;
     margin-bottom: 5px;
+    margin-top: 5px;
 }
 li {
     display: inline;
 }
 ul {
     border: 0px;
-    background: rgba(100,100,100,1.0);
+    background: rgba(30,60,200,0.5);
 }
 header, p, footer {
     font-family: monospace;
@@ -59,6 +63,13 @@ a {
     color: black;
     margin: 20px;
 }
-
-
+audio, video {
+    display: block;
+    width: 450px;
+    margin: 5px;
+}
+video {
+    border-radius: 10px;
+    border: 0px;
+}
 
