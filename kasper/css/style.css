@@ -1,15 +1,12 @@
 body {
 	background: rgba(250,100,200,0.7);
 }
-
 #container {
 	border: 1px solid black;
 	margin: 0 auto;
 	width: 1000px;
 	background: white;
 }
-
-
 .clearfix:after {
     content: ".";
     display: block;
@@ -19,12 +16,15 @@ body {
     height: 0;
 }
 aside {
+    display: inline;
     float: right;
 }
-footer {
-    margin: 0;    
+#footer {
+    font-family: monospace;
+    font-size: 22px;
+    text-align: center;
 }
-article {    
+article {   
     margin-bottom: 20px;
     border: 1px solid black;
     width: 45%;
@@ -34,12 +34,30 @@ meter {
     margin-bottom: 5px;
 }
 li {
-    margin: auto;
     display: inline;
 }
 ul {
     border: 0px;
     background: rgba(100,100,100,1.0);
+}
+header, p, footer {
+    font-family: monospace;
+}
+h1 {
+    font-size: 26px;
+    font-variant: bold;
+}
+header {
+    font-size: 24px;
+}
+p {
+    font-size: 16px;
+}
+a {
+    font-family: verdana;
+    font-size: 16px;
+    color: black;
+    margin: 20px;
 }
 
 
