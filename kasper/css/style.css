@@ -1,0 +1,30 @@
+body {
+	background: rgba(250,100,200,0.7);
+}
+
+#container {
+	border: 1px solid black;
+	margin: 0 auto;
+	width: 1000px;
+	background: white;
+}
+
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+aside {
+    float: right;
+}
+footer {
+    margin: 0;
+
+}
+
+
