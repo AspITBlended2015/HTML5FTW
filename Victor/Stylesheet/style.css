@@ -22,13 +22,11 @@ body {
 .width100{
     width:100%;
 }
-table, td {
-    border:1px solid black;
-}
 
 nav{
     height: 22px;
     background:rgb(190,254,190);
+    margin-bottom: 20px;
 }
 nav a:link{
     text-decoration: none;
@@ -40,7 +38,40 @@ nav a:visited{
 }
 nav ul li {
     padding-top: 2px;
-    padding-left: 7px;
+    padding-left: 10px;
     list-style-type: none;
     float:left;
 }
+
+table, td {
+    border:1px solid black;
+}
+table{
+    margin-top: 40px;
+    float:left;
+}
+
+main{
+    padding-left: 30px;
+    float:left;
+}
+
+h2{
+    color:red;
+}
+article footer p{
+    font-size: 15px;
+    color:lightgray;
+}
+
+aside{
+    float:left;
+}
+audio, video{
+    float:left;
+}
+
+#footer footer{
+    float:left;
+}
+
