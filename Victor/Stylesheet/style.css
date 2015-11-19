@@ -18,7 +18,29 @@ body {
     line-height: 0;
     height: 0;
 }
+
+.width100{
+    width:100%;
+}
 table, td {
     border:1px solid black;
 }
 
+nav{
+    height: 22px;
+    background:rgb(190,254,190);
+}
+nav a:link{
+    text-decoration: none;
+    color:black;
+}
+nav a:visited{
+    text-decoration: none;
+    color:black;
+}
+nav ul li {
+    padding-top: 2px;
+    padding-left: 7px;
+    list-style-type: none;
+    float:left;
+}
